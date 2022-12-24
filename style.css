@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #311731;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #311731;
+    color: white;
+    padding: 40px 0;
+    display: flex;
+}
+
+.header-wrap {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.header-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.header-title {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.header-text {
+    padding: 10px;
+}
+
+.main {
+    padding: 10px;
+    margin: 0 100px;
+}
+
+
+/* objective */
+
+
+.objective-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.objective-text {
+    padding-bottom: 20px;
+}
+
+
+/* experience */
+
+
+.experience-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.experience-time {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.experience-text {
+    padding-left: 200px;
+
+}
+
+.experience-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* skills */
+
+
+.skills-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.skills-text {
+    padding-left: 200px;
+}
+
+
+/* language */
+
+
+.language-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.language-list {
+    padding-left: 200px;
+    padding-bottom: 50px;
+    list-style-type: none;
+}
+
+.language-item:before {
+    content: "✰";
+    display: inline-block;
+    width: 20px;
+}
+
+
+/* form */
+
+
+.form {
+    background-color: #DEC3C1;
+    padding: 10px;
+}
+
+.form-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.form-box {
+    display: flex;
+    justify-content: space-around;
+    ;
+}
+
+.form-box-name {
+    display: flex;
+}
+
+.form-box-e-mail {
+    display: flex;
+}
+
+.form-item {
+    width: 350px;
+    background-color: #DEC3C1;
+    border: none;
+    border-bottom-color: #311731;
+    border-bottom-style: solid;
+}
+
+.textarea {
+    display: flex;
+    justify-content: center;
+    resize: none;
+    width: 700px;
+    padding-left: 250px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #311731;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* contacts */
+
+
+.contacts {
+    background-color: #311731;
+    padding: 10px;
+}
+
+.contacts-title {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.contacts-item {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    background: #DEC3C1;
+    color: #311731;
+}
+
+
+/* All rights reserved */
+
+.footer-copy {
+    background-color: #311731;
+    color: #DEC3C1;
+    padding: 20px;
+    text-align: center;
+}
